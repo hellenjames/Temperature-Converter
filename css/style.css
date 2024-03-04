@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+body {
+  background: linear-gradient(
+    rgba(66, 209, 61, 0.466),
+    rgba(123, 236, 204, 0.678)
+  );
+}
+.temperature {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.temperature__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 5px lightgray;
+  /* background-color: rgba(139, 236, 179, 0.815); */
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+}
+.temperature__container h2 {
+  color: darkgreen;
+  font-size: 2em;
+  margin: 20px 0;
+}
+.temperature__container p {
+  color: darkgreen;
+  font-size: 1.2em;
+}
+.input__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  padding: 1em;
+}
+.input__card input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0.2em 0.5em;
+  font-size: 1.3em;
+}
