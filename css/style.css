@@ -48,9 +48,11 @@ body {
   padding: 1em;
 }
 .input__card input {
-  background-color: transparent;
+  /* background-color: transparent; */
+  box-shadow: 0 0 5px lightgray;
   border: none;
   outline: none;
-  padding: 0.2em 0.5em;
-  font-size: 1.3em;
+  padding: 0.2em;
+  font-size: 0.5em 0.2em;
+
 }
